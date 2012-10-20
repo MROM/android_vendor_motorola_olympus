@@ -12,7 +12,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so \
     vendor/motorola/olympus/proprietary/bin/am2server:system/bin/am2server \
     vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk \
+    vendor/motorola/olympus/proprietary/app/FingerprintSensor.apk:system/app/FingerprintSensor.apk \
     vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
+    vendor/motorola/olympus/proprietary/etc/tsm.xml:system/etc/tsm.xml \
+    vendor/motorola/olympus/proprietary/app/am2app.jar:system/framework/am2app.jar
 
 # HAL
 PRODUCT_COPY_FILES += \
@@ -97,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/touchpad/22/touchpad.cfg:system/etc/touchpad/22/touchpad.cfg \
     vendor/motorola/olympus/proprietary/etc/bt_init.config:system/etc/bt_init.config \
     vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
+    vendor/motorola/olympus/proprietary/app/AudioEffectSettings.apk:system/app/AudioEffectSettings.apk \
     vendor/motorola/olympus/proprietary/etc/ppp/peers/pppd-ril.options:system/etc/ppp/peers/pppd-ril.options
 
 # system libs
