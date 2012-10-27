@@ -164,67 +164,80 @@ PRODUCT_COPY_FILES += \
 
 # Additional product files
 PRODUCT_COPY_FILES += \
-    vendor/motorola/olympus/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so
-    vendor/motorola/olympus/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_net_support.so:system/lib/libopencore_net_support.so
-    vendor/motorola/olympus/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so
-    vendor/motorola/olympus/proprietary/lib/libnvec.so:system/lib/libnvec.so
-    vendor/motorola/olympus/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so
-    vendor/motorola/olympus/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_author.so:system/lib/libopencore_author.so
-    vendor/motorola/olympus/proprietary/lib/libnvidia_display_jni.so:system/lib/libnvidia_display_jni.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_download.so:system/lib/libopencore_download.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so
-    vendor/motorola/olympus/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so
-    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_rtsp.so:system/lib/libopencore_rtsp.so
-    vendor/motorola/olympus/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so
-    vendor/motorola/olympus/proprietary/lib/libsensortest.so:system/lib/libsensortest.so
-    vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so
-    vendor/motorola/olympus/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so
-    vendor/motorola/olympus/proprietary/lib/libctest.so:system/lib/libctest.so
-    vendor/motorola/olympus/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so
-    vendor/motorola/olympus/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so
-    vendor/motorola/olympus/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so
-    vendor/motorola/olympus/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_mp4localreg.so:system/lib/libopencore_mp4localreg.so
-    vendor/motorola/olympus/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so
-    vendor/motorola/olympus/proprietary/lib/libdmengine.so:system/lib/libdmengine.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_player.so:system/lib/libopencore_player.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_mp4local.so:system/lib/libopencore_mp4local.so
-    vendor/motorola/olympus/proprietary/lib/libopencore_downloadreg.so:system/lib/libopencore_downloadreg.so
-    vendor/motorola/olympus/proprietary/bin/sdptool:system/bin/sdptool
-    vendor/motorola/olympus/proprietary/bin/batch:system/bin/batch
-    vendor/motorola/olympus/proprietary/bin/Hostapd:system/bin/Hostapd
-    vendor/motorola/olympus/proprietary/bin/omx_tests:system/bin/omx_tests
-    vendor/motorola/olympus/proprietary/bin/tcmd:system/bin/tcmd
-    vendor/motorola/olympus/proprietary/bin/nvmm_wmaprodec.axf:system/bin/nvmm_wmaprodec.axf
-    vendor/motorola/olympus/proprietary/bin/bugtogo.sh:system/bin/bugtogo.sh
-    vendor/motorola/olympus/proprietary/bin/memtest_mode:system/bin/memtest_mode
-    vendor/motorola/olympus/proprietary/bin/tegrastats:system/bin/tegrastats
-    vendor/motorola/olympus/proprietary/bin/bluetoothd:system/bin/bluetoothd
-    vendor/motorola/olympus/proprietary/bin/nv_hciattach:system/bin/nv_hciattach
-    vendor/motorola/olympus/proprietary/bin/remountpds:system/bin/remountpds
-    vendor/motorola/olympus/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks
-    vendor/motorola/olympus/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_manager.axf:system/etc/firmware/nvmm_manager.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_jpegdec.axf:system/etc/firmware/nvmm_jpegdec.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_mpeg4dec.axf:system/etc/firmware/nvmm_mpeg4dec.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_mp3dec.axf:system/etc/firmware/nvmm_mp3dec.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_reference.axf:system/etc/firmware/nvmm_reference.axf
-    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf
-    vendor/motorola/olympus/proprietary/etc/gps.conf:system/gps.conf
-    vendor/motorola/olympus/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf
-    vendor/motorola/olympus/proprietary/etc/location.cfg:system/etc/location.cfg
-    vendor/motorola/olympus/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt
-    vendor/motorola/olympus/proprietary/etc/motorola/12m/tcmd_leds.cfg:system/etc/motorola/12m/tcmd_leds.cfg
-    vendor/motorola/olympus/proprietary/etc/flex:system/etc/flex
-    vendor/motorola/olympus/proprietary/etc/pvplayer.cfg:system/etc/pvplayer.cfg
-    vendor/motorola/olympus/proprietary/app/DMService.apk:system/app/DMService.apk
+    vendor/motorola/olympus/proprietary/lib/libbluetoothd.so:system/lib/libbluetoothd.so \
+    vendor/motorola/olympus/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_net_support.so:system/lib/libopencore_net_support.so \
+    vendor/motorola/olympus/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/motorola/olympus/proprietary/lib/libnvec.so:system/lib/libnvec.so \
+    vendor/motorola/olympus/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
+    vendor/motorola/olympus/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_author.so:system/lib/libopencore_author.so \
+    vendor/motorola/olympus/proprietary/lib/libnvidia_display_jni.so:system/lib/libnvidia_display_jni.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_download.so:system/lib/libopencore_download.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_common.so:system/lib/libopencore_common.so \
+    vendor/motorola/olympus/proprietary/lib/libomx_amrenc_sharedlibrary.so:system/lib/libomx_amrenc_sharedlibrary.so \
+    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_rtspreg.so:system/lib/libopencore_rtspreg.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_rtsp.so:system/lib/libopencore_rtsp.so \
+    vendor/motorola/olympus/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
+    vendor/motorola/olympus/proprietary/lib/libsensortest.so:system/lib/libsensortest.so \
+    vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
+    vendor/motorola/olympus/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/motorola/olympus/proprietary/lib/libctest.so:system/lib/libctest.so \
+    vendor/motorola/olympus/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
+    vendor/motorola/olympus/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
+    vendor/motorola/olympus/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
+    vendor/motorola/olympus/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_mp4localreg.so:system/lib/libopencore_mp4localreg.so \
+    vendor/motorola/olympus/proprietary/lib/libOpenSLES.so:system/lib/libOpenSLES.so \
+    vendor/motorola/olympus/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_player.so:system/lib/libopencore_player.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_mp4local.so:system/lib/libopencore_mp4local.so \
+    vendor/motorola/olympus/proprietary/lib/libopencore_downloadreg.so:system/lib/libopencore_downloadreg.so \
+    vendor/motorola/olympus/proprietary/bin/sdptool:system/bin/sdptool \
+    vendor/motorola/olympus/proprietary/bin/batch:system/bin/batch \
+    vendor/motorola/olympus/proprietary/bin/Hostapd:system/bin/Hostapd \
+    vendor/motorola/olympus/proprietary/bin/omx_tests:system/bin/omx_tests \
+    vendor/motorola/olympus/proprietary/bin/tcmd:system/bin/tcmd \
+    vendor/motorola/olympus/proprietary/bin/nvmm_wmaprodec.axf:system/bin/nvmm_wmaprodec.axf \
+    vendor/motorola/olympus/proprietary/bin/bugtogo.sh:system/bin/bugtogo.sh \
+    vendor/motorola/olympus/proprietary/bin/memtest_mode:system/bin/memtest_mode \
+    vendor/motorola/olympus/proprietary/bin/tegrastats:system/bin/tegrastats \
+    vendor/motorola/olympus/proprietary/bin/bluetoothd:system/bin/bluetoothd \
+    vendor/motorola/olympus/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
+    vendor/motorola/olympus/proprietary/bin/remountpds:system/bin/remountpds \
+    vendor/motorola/olympus/proprietary/etc/security/suplcerts.bks:system/etc/security/suplcerts.bks \
+    vendor/motorola/olympus/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_jpegenc.axf:system/etc/firmware/nvmm_jpegenc.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_adtsdec.axf:system/etc/firmware/nvmm_adtsdec.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_manager.axf:system/etc/firmware/nvmm_manager.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_jpegdec.axf:system/etc/firmware/nvmm_jpegdec.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_mpeg4dec.axf:system/etc/firmware/nvmm_mpeg4dec.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_aacdec.axf:system/etc/firmware/nvmm_aacdec.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_h264dec.axf:system/etc/firmware/nvmm_h264dec.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_mp3dec.axf:system/etc/firmware/nvmm_mp3dec.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_reference.axf:system/etc/firmware/nvmm_reference.axf \
+    vendor/motorola/olympus/proprietary/etc/firmware/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \
+    vendor/motorola/olympus/proprietary/etc/gps.conf:system/gps.conf \
+    vendor/motorola/olympus/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
+    vendor/motorola/olympus/proprietary/etc/location.cfg:system/etc/location.cfg \
+    vendor/motorola/olympus/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
+    vendor/motorola/olympus/proprietary/etc/motorola/12m/tcmd_leds.cfg:system/etc/motorola/12m/tcmd_leds.cfg \
+    vendor/motorola/olympus/proprietary/etc/flex:system/etc/flex \
+    vendor/motorola/olympus/proprietary/etc/pvplayer.cfg:system/etc/pvplayer.cfg \
+    vendor/motorola/olympus/proprietary/app/DMService.apk:system/app/DMService.apk \
+    vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so \
+    vendor/motorola/olympus/proprietary/lib/libam2app.so:system/lib/libam2app.so \
+    vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so \
+    vendor/motorola/olympus/proprietary/bin/am2server:system/bin/am2server \
+    vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk \
+    vendor/motorola/olympus/proprietary/app/FingerprintSensor.apk:system/app/FingerprintSensor.apk \
+    vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
+    vendor/motorola/olympus/proprietary/etc/tsm.xml:system/etc/tsm.xml \
+    vendor/motorola/olympus/proprietary/app/am2app.jar:system/framework/am2app.jar
+    vendor/motorola/olympus/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so
+    vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
+    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so 
+
