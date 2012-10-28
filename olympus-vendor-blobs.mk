@@ -236,8 +236,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/app/FingerprintSensor.apk:system/app/FingerprintSensor.apk \
     vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
     vendor/motorola/olympus/proprietary/etc/tsm.xml:system/etc/tsm.xml \
-    vendor/motorola/olympus/proprietary/app/am2app.jar:system/framework/am2app.jar
-    vendor/motorola/olympus/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so
+    vendor/motorola/olympus/proprietary/app/am2app.jar:system/framework/am2app.jar \
+    vendor/motorola/olympus/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
     vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
     vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so 
 
