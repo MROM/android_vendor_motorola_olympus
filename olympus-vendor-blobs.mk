@@ -225,7 +225,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/location.cfg:system/etc/location.cfg \
     vendor/motorola/olympus/proprietary/etc/motorola/12m/key_code_map.txt:system/etc/motorola/12m/key_code_map.txt \
     vendor/motorola/olympus/proprietary/etc/motorola/12m/tcmd_leds.cfg:system/etc/motorola/12m/tcmd_leds.cfg \
-    vendor/motorola/olympus/proprietary/etc/flex:system/etc/flex \
     vendor/motorola/olympus/proprietary/etc/pvplayer.cfg:system/etc/pvplayer.cfg \
     vendor/motorola/olympus/proprietary/app/DMService.apk:system/app/DMService.apk \
     vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so \
