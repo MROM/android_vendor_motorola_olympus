@@ -238,5 +238,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/app/am2app.jar:system/framework/am2app.jar \
     vendor/motorola/olympus/proprietary/lib/hw/lights.tegra.so:system/lib/hw/lights.tegra.so \
     vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
-    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so 
+    vendor/motorola/olympus/proprietary/lib/liba2dp.so:system/lib/liba2dp.so \
+    vendor/motorola/olympus/proprietary/bin/fw_bcm4329.bin:system/bin/fw_bcm4329.bin \
+    vendor/motorola/olympus/proprietary/bin/fw_bcm4329_apsta.bin:system/bin/fw_bcm4329_apsta.bin 
+
 
