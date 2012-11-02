@@ -111,5 +111,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/motorola/olympus/proprietary/etc/firmware/BCM4329B1_002.002.023.0757.0780.hcd:system/etc/firmware/BCM4329B1_002.002.023.0757.0780.hcd \
     vendor/motorola/olympus/proprietary/bin/touchpad:system/bin/touchpad \
+    vendor/motorola/olympus/proprietary/etc/touchpad/20/touchpad.cfg:system/etc/touchpad/20/touchpad.cfg \
+    vendor/motorola/olympus/proprietary/etc/touchpad/21/touchpad.cfg:system/etc/touchpad/21/touchpad.cfg \
+    vendor/motorola/olympus/proprietary/etc/touchpad/22/touchpad.cfg:system/etc/touchpad/22/touchpad.cfg \
     vendor/motorola/olympus/proprietary/bin/whisperd:system/bin/whisperd \
     vendor/motorola/olympus/proprietary/bin/aplogd:system/bin/aplogd
