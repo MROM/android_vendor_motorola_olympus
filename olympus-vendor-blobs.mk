@@ -115,4 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/touchpad/21/touchpad.cfg:system/etc/touchpad/21/touchpad.cfg \
     vendor/motorola/olympus/proprietary/etc/touchpad/22/touchpad.cfg:system/etc/touchpad/22/touchpad.cfg \
     vendor/motorola/olympus/proprietary/bin/whisperd:system/bin/whisperd \
-    vendor/motorola/olympus/proprietary/bin/aplogd:system/bin/aplogd
+    vendor/motorola/olympus/proprietary/bin/aplogd:system/bin/aplogd \
+    vendor/motorola/olympus/proprietary/app/DeepSleepService.apk:system/app/DeepSleepService.apk \
+    vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk
+
