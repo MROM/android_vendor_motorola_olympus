@@ -117,5 +117,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/whisperd:system/bin/whisperd \
     vendor/motorola/olympus/proprietary/bin/aplogd:system/bin/aplogd \
     vendor/motorola/olympus/proprietary/app/DeepSleepService.apk:system/app/DeepSleepService.apk \
-    vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk
+    vendor/motorola/olympus/proprietary/app/FastDormancy.apk:system/app/FastDormancy.apk \
+    vendor/motorola/olympus/proprietary/lib/libam2server.so:system/lib/libam2server.so \
+    vendor/motorola/olympus/proprietary/lib/libam2app.so:system/lib/libam2app.so \
+    vendor/motorola/olympus/proprietary/lib/libsensortest.so:system/lib/libsensortest.so \
+    vendor/motorola/olympus/proprietary/bin/am2server:system/bin/am2server \
+    vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk
 
