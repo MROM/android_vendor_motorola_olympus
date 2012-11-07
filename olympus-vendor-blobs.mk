@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/olympus/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/olympus/proprietary/lib/hw/gralloc.tegra.so:system/lib/hw/gralloc.tegra.so \
-    vendor/motorola/olympus/proprietary/lib/hw/hwcomposer.tegra.so:system/lib/hw/hwcomposer.tegra.so \
     vendor/motorola/olympus/proprietary/lib/hw/camera.tegra.so:system/lib/hw/camera.tegra.so \
     vendor/motorola/olympus/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
     vendor/motorola/olympus/proprietary/lib/hw/sensors.olympus.so:system/lib/hw/sensors.olympus.so \
@@ -123,6 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libsensortest.so:system/lib/libsensortest.so \
     vendor/motorola/olympus/proprietary/bin/am2server:system/bin/am2server \
     vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk \
+    vendor/motorola/olympus/proprietary/app/FingerprintSensor.apk:system/app/FingerprintSensor.apk \
     vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
     vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so
 
