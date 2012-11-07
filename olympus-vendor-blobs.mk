@@ -122,5 +122,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/lib/libam2app.so:system/lib/libam2app.so \
     vendor/motorola/olympus/proprietary/lib/libsensortest.so:system/lib/libsensortest.so \
     vendor/motorola/olympus/proprietary/bin/am2server:system/bin/am2server \
-    vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk
+    vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk \
+    vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
+    vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so
 
