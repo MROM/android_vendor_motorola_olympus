@@ -124,5 +124,26 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/app/GfxEngine.apk:system/app/GfxEngine.apk \
     vendor/motorola/olympus/proprietary/app/FingerprintSensor.apk:system/app/FingerprintSensor.apk \
     vendor/motorola/olympus/proprietary/etc/am2server.pubkey:system/etc/am2server.pubkey \
-    vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so
-
+    vendor/motorola/olympus/proprietary/lib/libAuthUDMDrv_1750A100.so:system/lib/libAuthUDMDrv_1750A100.so \
+    vendor/motorola/olympus/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
+    vendor/motorola/olympus/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
+    vendor/motorola/olympus/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
+    vendor/motorola/olympus/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
+    vendor/motorola/olympus/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
+    vendor/motorola/olympus/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
+    vendor/motorola/olympus/proprietary/lib/libnvcpud.so:system/lib/libnvcpud.so \
+    vendor/motorola/olympus/proprietary/lib/libnvcpud_client.so:system/lib/libnvcpud_client.so \
+    vendor/motorola/olympus/proprietary/lib/libnvddk_aes_user.so:system/lib/libnvddk_aes_user.so \
+    vendor/motorola/olympus/proprietary/lib/libnvhdmi3dplay_jni.so:system/lib/libnvhdmi3dplay_jni.so \
+    vendor/motorola/olympus/proprietary/lib/libnvmm_image.so:system/lib/libnvmm_image.so \
+    vendor/motorola/olympus/proprietary/lib/libnvmm_misc.so:system/lib/libnvmm_misc.so \
+    vendor/motorola/olympus/proprietary/lib/libnvmm_parser.so:system/lib/libnvmm_parser.so \
+    vendor/motorola/olympus/proprietary/lib/libnvmm_writer.so:system/lib/libnvmm_writer.so \
+    vendor/motorola/olympus/proprietary/lib/libnvodm_dtvtuner.so:system/lib/libnvodm_dtvtuner.so \
+    vendor/motorola/olympus/proprietary/lib/libnvodm_hdmi.so:system/lib/libnvodm_hdmi.so \
+    vendor/motorola/olympus/proprietary/lib/libnvodm_misc.so:system/lib/libnvodm_misc.so \
+    vendor/motorola/olympus/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
+    vendor/motorola/olympus/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
+    vendor/motorola/olympus/proprietary/lib/libnvsystemuiext_jni.so:system/lib/libnvsystemuiext_jni.so \
+    vendor/motorola/olympus/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
+    vendor/motorola/olympus/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so
