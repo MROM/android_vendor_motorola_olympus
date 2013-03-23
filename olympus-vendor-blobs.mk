@@ -53,6 +53,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/olympus/proprietary/etc/firmware/nvmm_service.axf:system/etc/firmware/nvmm_service.axf \
     vendor/motorola/olympus/proprietary/etc/firmware/nvmm_wavdec.axf:system/etc/firmware/nvmm_wavdec.axf \
     vendor/motorola/olympus/proprietary/etc/firmware/nvrm_avp.bin:system/etc/firmware/nvrm_avp.bin \
+    vendor/motorola/olympus/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
+    vendor/motorola/olympus/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
     vendor/motorola/olympus/proprietary/etc/nvram.txt:system/etc/nvram.txt \
     vendor/motorola/olympus/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/motorola/olympus/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
